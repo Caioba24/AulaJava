@@ -2,9 +2,9 @@ package PacoteJava;
 
 import javax.swing.*;
 
-public class MultipicaJOption {
+public class MultipicaJOption{
  
- public static void main(String[] args) {
+ public static void main(String[] args){
         double valor1, valor2, resultado;
         String aux = "";
 
