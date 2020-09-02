@@ -8,10 +8,10 @@ public class MultipicaJOption {
         double valor1, valor2, resultado;
         String aux = "";
 
-        aux = JOptionPane.showInputDialog(null, "Entre com o primeiro valor:");
+        aux = JOptionPane.showInputDialog(null, "Entre com o primeiro valor: ");
         valor1 = Double.parseDouble(aux);
 
-        aux = JOptionPane.showInputDialog(null, "Entre com o segundo valor:");
+        aux = JOptionPane.showInputDialog(null, "Entre com o segundo valor: ");
         valor2 = Double.parseDouble(aux);
 
         resultado = Multiplica.Multiplica(valor1, valor2);
